@@ -1,0 +1,113 @@
+h1{
+    text-align: center;
+}
+
+img {
+    float: left;
+}
+.contenedor {
+    float: left;
+    margin: 0.2em;
+}
+.shoes-izq {
+float: left;
+}
+.shoes-der {
+    float: right;
+}
+img.shoes-izq {
+    margin: 1.5em;
+    border-top: 4px solid darkcyan;
+    border-left: 4px solid darkcyan;
+    border-right: 4px solid darkcyan;
+    border-bottom: 4px solid darkcyan;
+    padding: 1.5em;
+    border-radius: 10%;
+    background-color: whitesmoke;
+    
+}
+img.shoes-der {
+    margin: 1.5em;
+    border-top: 4px solid darkcyan;
+    border-left: 4px solid darkcyan;
+    border-right: 4px solid darkcyan;
+    border-bottom: 4px solid darkcyan;
+    padding: 1.5em;
+    border-radius: 10%;
+    background-color: whitesmoke;
+
+}
+img.shoes-izq {
+    margin: 1.5em;
+    border-top: 4px solid darkcyan;
+    border-left: 4px solid darkcyan;
+    border-right: 4px solid darkcyan;
+    border-bottom: 4px solid darkcyan;
+    padding: 1.5em;
+    border-radius: 10%;
+    background-color: whitesmoke;
+}
+    
+
+
+img.shoes-der { 
+    margin: 1.5em;
+    border-top: 4px solid darkcyan;
+    border-left: 4px solid darkcyan;
+    border-right: 4px solid darkcyan;
+    border-bottom: 4px solid darkcyan;
+    padding: 2em;
+    border-radius: 10%;
+    background-color: whitesmoke;
+}
+img.shoes-izq {
+    margin: 1.5em;
+    border-top: 4px solid darkcyan;
+    border-left: 4px solid darkcyan;
+    border-right: 4px solid darkcyan;
+    border-bottom: 4px solid darkcyan;
+    padding: 1.5em;
+    border-radius: 10%;
+    background-color: whitesmoke;
+}
+img.shoes-der {
+    margin: 1.5em;
+    border-top: 4px solid darkcyan;
+    border-left: 4px solid darkcyan;
+    border-right: 4px solid darkcyan;
+    border-bottom: 4px solid darkcyan;
+    padding: 1.5em;
+    border-radius: 10%;
+    background-color: whitesmoke;
+}
+img.shoes-izq {
+    margin: 1.5em;
+    border-top: 4px solid darkcyan;
+    border-left: 4px solid darkcyan;
+    border-right: 4px solid darkcyan;
+    border-bottom: 4px solid darkcyan;
+    padding: 1.5em;
+    border-radius: 10%;
+    background-color: whitesmoke;
+}
+img.shoes-der {
+    margin: 1.5em;
+    border-top: 4px solid darkcyan;
+    border-left: 4px solid darkcyan;
+    border-right: 4px solid darkcyan;
+    border-bottom: 4px solid darkcyan;
+    padding: 1.5em;
+    border-radius: 10%;
+    background-color: whitesmoke;
+}
+img.shoes-izq {
+    margin: 1.5em;
+    border-top: 4px solid darkcyan;
+    border-left: 4px solid darkcyan;
+    border-right: 4px solid darkcyan;
+    border-bottom: 4px solid darkcyan;
+    padding: 1.5em;
+    border-radius: 10%;
+    background-color: whitesmoke;
+}
+
