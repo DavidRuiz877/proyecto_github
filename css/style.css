@@ -1,113 +1,88 @@
+
+
 h1{
     text-align: center;
+    font-family: 'Bungee', cursive;
+    color:midnightblue;
 }
-
-img {
-    float: left;
-}
-.contenedor {
-    float: left;
-    margin: 0.2em;
-}
-.shoes-izq {
-float: left;
-}
-.shoes-der {
-    float: right;
-}
-img.shoes-izq {
-    margin: 1.5em;
-    border-top: 4px solid darkcyan;
-    border-left: 4px solid darkcyan;
-    border-right: 4px solid darkcyan;
-    border-bottom: 4px solid darkcyan;
-    padding: 1.5em;
-    border-radius: 10%;
-    background-color: whitesmoke;
+img.shoes {
+    width: 100%;
+    
+    
     
 }
-img.shoes-der {
-    margin: 1.5em;
-    border-top: 4px solid darkcyan;
-    border-left: 4px solid darkcyan;
-    border-right: 4px solid darkcyan;
-    border-bottom: 4px solid darkcyan;
-    padding: 1.5em;
-    border-radius: 10%;
-    background-color: whitesmoke;
+div.contenedor{
+    max-width: 350px;
+}
+div#catalogo-main{
+    width: 100%;
+}
+/*movil*/
+@media only screen and (max-width: 767px) {
+    div.contenedor{
+        width: 95%;
+        margin: 0 auto 0 auto;
+        border-top: 5px solid darkcyan;
+        border-left: 5px solid darkcyan;
+        border-right: 5px solid darkcyan;
+        border-bottom: 5px solid darkcyan;
+        border-radius: 10%;
+        background-color: whitesmoke;
+        
+    }
+    h1{
+        color: darkcyan;
+    }
+    img.shoes{
+        display: block;
+        margin: 0 auto 0 auto;
+        margin-bottom: 1.3em;
+    }
+}
+/*tablet*/
+@media only screen and (min-width:768px) and (max-width:1023px)
+{
+    div.contenedor{
+        width:32%;
+        float: left;
+        margin-left: 1%;
+        margin-bottom: 1.3em;
+    }
+    img.shoes{
+        display: block;
+        margin: 0 auto 0 auto;
+        border-top: 5px solid darkcyan;
+        border-left: 5px solid darkcyan;
+        border-right: 5px solid darkcyan;
+        border-bottom: 5px solid darkcyan;
+        border-radius: 10%;
+        background-color: whitesmoke;
+    }
+}
+/*escritorio*/
+@media only screen and (min-width:1024px){
+    div.contenedor{
+        width: 23%;
+        float: left;
+        margin-left: 1.6em;
+        margin-bottom: 1.3em;
 
-}
-img.shoes-izq {
-    margin: 1.5em;
-    border-top: 4px solid darkcyan;
-    border-left: 4px solid darkcyan;
-    border-right: 4px solid darkcyan;
-    border-bottom: 4px solid darkcyan;
-    padding: 1.5em;
-    border-radius: 10%;
-    background-color: whitesmoke;
-}
+    }
+    img.shoes{
+        display: block;
+        margin: 0 auto 0 auto;
+        margin: 1.5em;
+        border-top: 5px solid darkcyan;
+        border-left: 5px solid darkcyan;
+        border-right: 5px solid darkcyan;
+        border-bottom: 5px solid darkcyan;
+        border-radius: 10%;
+        background-color: whitesmoke;
+
+        }
+   
     
 
 
-img.shoes-der { 
-    margin: 1.5em;
-    border-top: 4px solid darkcyan;
-    border-left: 4px solid darkcyan;
-    border-right: 4px solid darkcyan;
-    border-bottom: 4px solid darkcyan;
-    padding: 2em;
-    border-radius: 10%;
-    background-color: whitesmoke;
-}
-img.shoes-izq {
-    margin: 1.5em;
-    border-top: 4px solid darkcyan;
-    border-left: 4px solid darkcyan;
-    border-right: 4px solid darkcyan;
-    border-bottom: 4px solid darkcyan;
-    padding: 1.5em;
-    border-radius: 10%;
-    background-color: whitesmoke;
-}
-img.shoes-der {
-    margin: 1.5em;
-    border-top: 4px solid darkcyan;
-    border-left: 4px solid darkcyan;
-    border-right: 4px solid darkcyan;
-    border-bottom: 4px solid darkcyan;
-    padding: 1.5em;
-    border-radius: 10%;
-    background-color: whitesmoke;
-}
-img.shoes-izq {
-    margin: 1.5em;
-    border-top: 4px solid darkcyan;
-    border-left: 4px solid darkcyan;
-    border-right: 4px solid darkcyan;
-    border-bottom: 4px solid darkcyan;
-    padding: 1.5em;
-    border-radius: 10%;
-    background-color: whitesmoke;
-}
-img.shoes-der {
-    margin: 1.5em;
-    border-top: 4px solid darkcyan;
-    border-left: 4px solid darkcyan;
-    border-right: 4px solid darkcyan;
-    border-bottom: 4px solid darkcyan;
-    padding: 1.5em;
-    border-radius: 10%;
-    background-color: whitesmoke;
-}
-img.shoes-izq {
-    margin: 1.5em;
-    border-top: 4px solid darkcyan;
-    border-left: 4px solid darkcyan;
-    border-right: 4px solid darkcyan;
-    border-bottom: 4px solid darkcyan;
-    padding: 1.5em;
-    border-radius: 10%;
-    background-color: whitesmoke;
-}
+
 
