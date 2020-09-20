@@ -1,5 +1,7 @@
 
-
+body{
+    background-color: gainsboro;
+}
 h1{
     text-align: center;
     font-family: 'Bungee', cursive;
@@ -8,37 +10,41 @@ h1{
 img.shoes {
     width: 100%;
     
-    
-    
+    border-top-left-radius: 5% ;
+    border-top-right-radius: 5%;
+}
+h3,p{
+    text-align: center;
+    color:#1C2833 ;
+    font-family: 'Roboto Slab', serif;
+}
+p{
+    position: relative ;
+    top: -.5em;
 }
 div.contenedor{
     max-width: 350px;
+    background-color:whitesmoke;
+    border-radius: 15px ;
 }
 div#catalogo-main{
     width: 100%;
 }
 /*movil*/
-@media only screen and (max-width: 767px) {
+@media only screen and (max-width: 767px)
+ {
     div.contenedor{
-        width: 95%;
-        margin: 0 auto 0 auto;
-        border-top: 5px solid darkcyan;
-        border-left: 5px solid darkcyan;
-        border-right: 5px solid darkcyan;
-        border-bottom: 5px solid darkcyan;
-        border-radius: 10%;
-        background-color: whitesmoke;
-        
+        width: 95%; 
+        margin: 0 auto 0 auto;    
     }
-    h1{
-        color: darkcyan;
-    }
+    
     img.shoes{
         display: block;
         margin: 0 auto 0 auto;
         margin-bottom: 1.3em;
     }
 }
+
 /*tablet*/
 @media only screen and (min-width:768px) and (max-width:1023px)
 {
@@ -51,18 +57,13 @@ div#catalogo-main{
     img.shoes{
         display: block;
         margin: 0 auto 0 auto;
-        border-top: 5px solid darkcyan;
-        border-left: 5px solid darkcyan;
-        border-right: 5px solid darkcyan;
-        border-bottom: 5px solid darkcyan;
-        border-radius: 10%;
-        background-color: whitesmoke;
+        margin-bottom: 1.3em;
     }
 }
 /*escritorio*/
 @media only screen and (min-width:1024px){
     div.contenedor{
-        width: 23%;
+        width: 22%;
         float: left;
         margin-left: 1.6em;
         margin-bottom: 1.3em;
@@ -71,15 +72,10 @@ div#catalogo-main{
     img.shoes{
         display: block;
         margin: 0 auto 0 auto;
-        margin: 1.5em;
-        border-top: 5px solid darkcyan;
-        border-left: 5px solid darkcyan;
-        border-right: 5px solid darkcyan;
-        border-bottom: 5px solid darkcyan;
-        border-radius: 10%;
-        background-color: whitesmoke;
-
-        }
+        margin-bottom: 1.3em ;
+    }
+    
+ }
    
     
 
