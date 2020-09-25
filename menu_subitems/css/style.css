@@ -1,0 +1,59 @@
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+nav ul{
+    list-style: none;
+    padding: 0;
+    cursor: pointer;
+}
+nav li {
+    line-height: 3rem;
+    position: relative;
+
+}
+.menu ul {
+    position: absolute;
+}
+nav a {
+    text-decoration: none;
+    color: #ddd;
+    display: block;
+    padding: 0 2.5em;
+    transition: .8s;
+}
+nav a:hover {
+    background: rgba(0,0,0,.5);
+}
+h1{
+    text-align: center;
+}
+.menu{
+    background: #333;
+    display: table;
+    width: 100%;
+}
+.menu > li {
+    float: left;
+    width: 170px;
+
+}
+nav li li {
+    background: #222;
+    width: 220px;
+    max-height: 0;
+    overflow: hidden;
+    transition: all .8s;
+}
+nav li:hover > ul > li {
+    max-height: 500px;
+    overflow: visible;
+
+}
+.menu > li > ul {
+   top: 100%;
+
+}
+.menu ul ul {
+    left: 100%;
+    top: 0%;
+}
