@@ -2,3 +2,10 @@ h1{
     text-align: center;
     color: midnightblue;
 }
+div{
+    width: 400px;
+    height: 400px;
+    margin: 0 auto 0 auto;
+    border-radius: 10%;
+    display: inline;
+}
