@@ -1,11 +1,47 @@
-h1{
+h1,h2{
     text-align: center;
     color: midnightblue;
 }
+
 div{
     width: 400px;
     height: 400px;
     margin: 0 auto 0 auto;
-    border-radius: 10%;
-    display: inline;
-}
+    border: 1px solid #333;
+    }
+ .contenedor-uno{
+     background-color: purple;
+    width: 200px;
+    height: 200px;
+    margin: 0 auto 0 auto;
+    border: 1px solid #333;
+    float: left;
+ }   
+ .contenedor-dos{
+     background-color: red;
+    width: 200px;
+    height: 200px;
+    margin: 0 auto 0 auto;
+    border: 1px solid #333;
+    float: left;
+ }   
+
+.contenedor-tres{
+    background-color: orange;
+   width: 200px;
+   height: 200px;
+   margin: 0 auto 0 auto;
+   border: 1px solid #333;
+   float: right;
+   position: ;
+}   
+ 
+.contenedor-cuatro{
+    background-color: olive;
+   width: 200px;
+   height: 200px;
+   margin: 0 auto 0 auto;
+   border: 1px solid #333;
+   float: right;
+}   
+
