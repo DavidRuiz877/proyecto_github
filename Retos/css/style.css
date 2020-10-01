@@ -4,7 +4,7 @@ h1,h2{
 }
 
 div{
-    width: 400px;
+    width: 500px;
     height: 400px;
     margin: 0 auto 0 auto;
     outline:  1px solid #333;
@@ -23,7 +23,7 @@ div{
     height: 200px;
     margin: 0 auto 0 auto;
     outline: 1px solid #333;
-    float: left;
+    float: right;
  }   
 
 .contenedor-tres{
@@ -33,9 +33,6 @@ div{
    margin: 0 auto 0 auto;
    outline:  1px solid #333;
    float: right;
-   
-  
-   
 }   
  
 .contenedor-cuatro{
@@ -44,8 +41,6 @@ div{
    height: 200px;
    margin: 0 auto 0 auto;
    outline:  1px solid #333;
-   float: right;
-  
-   
+   float: left;
 }   
 
