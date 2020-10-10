@@ -1,0 +1,59 @@
+body{
+    background-color: #252528;
+    color: rgb(255,255,255,.4);
+    font-family: 'Raleway', sans-serif;
+    padding: 0 1em;
+}
+h1{
+    text-align: right;
+    color: rgb(255,255,255, .7);
+    font-size: 1.5em;
+    margin-bottom: 1em;
+}
+nav{
+    background: rgba(0,0,0, .8) ;
+    position: absolute;
+    height: 100%;
+    top: 0;
+    padding-top:2em ;
+    left: -20em;
+}
+.menu{
+    list-style: none;
+    line-height: 55px;
+    padding-top: 1em;
+    width: 18em;
+
+}
+.menu li{
+    padding-left: 1em;
+    margin-right: 10px;
+}
+.menu a{
+    font-size: 20x;
+    color: #ddd;
+    text-decoration: none;
+    display: block;
+    width: 100%;
+}
+a{
+    color:rgba(64,64,64);
+}
+.menu li a span{
+    margin-left: 10px;
+}
+#mostrar-nav > label{
+    cursor: pointer;
+    position: absolute;
+    top: 2em;
+    z-index: 20;
+
+
+}
+.fa-bars{
+    color: white;
+}
+nav.mostrar{
+    left: 0;
+}
+
