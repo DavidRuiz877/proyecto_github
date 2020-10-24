@@ -1,0 +1,146 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+body{
+    background: #ffffff;
+}
+
+h1{
+    text-align: left;
+    display: block;
+}
+.titulo{
+    color: white;
+    position: absolute;
+    top: 13px;
+    left: 20px;
+}
+
+.main-content{
+    margin: 1.5em;
+    text-align: justify;
+}
+.menu_bar{
+    display: none;
+}
+header{
+    width: 100%;
+}
+header nav{
+    width: 100%;
+    background: rgb(222,1,8);
+    z-index: 10;
+    margin: 0 auto;
+}
+header nav ul{
+    list-style: none;
+    text-align: right;
+}
+header nav ul li{
+    display: inline-block;
+    position: relative;
+}
+header nav ul li:hover{
+    background: rgb(191,0,6);
+}
+
+header nav ul li a{
+    color: white;
+    display: block;
+    text-decoration: none;
+    padding: 20px;
+}
+
+header nav ul li .children{
+    display: none;
+    background: #011826;
+    position: absolute;
+
+}
+header nav ul li:hover .children{
+    display: block;
+    width: 150%;
+    z-index: 20;
+    text-align: left;
+}
+header nav ul li a span {
+    margin-right: 10px;
+}
+@media screen and (max-width: 830px){
+    body{
+        padding-top: 68px;
+    }
+    .titulo{
+        display: none;
+    }
+    .menu_bar{
+        display: block;
+        width: 100%;
+        position: fixed;
+        background: rgb(222,1,8);
+        top:0;
+    }
+    .menu_bar .bt-menu{
+        display: block;
+        padding: 20px;
+        color: #ffff;
+        font-size: 25px;
+        font-weight: bold;
+        text-decoration: none;
+    }
+    .menu_bar span{
+        float: right;
+        font-size: 40px;
+    }
+    header nav{
+        width: 80%;
+        height: calc(100% - 40px);
+        position: fixed;
+        overflow: scroll;
+        right: 100%;
+        margin: 0;
+        background: whitesmoke;
+    }
+    header nav ul li{
+        display: block;
+        border: 1px solid rgba(255,255,255,.5);
+    }
+    header nav ul li:hover{
+        background: white;
+    }
+    header nav ul li a {
+        padding: 12px;
+        display: block;
+        text-align: left;
+        color: rgb(48,48,48);
+    }
+  
+    
+    header nav ul li .children{
+        width: 100%;
+        position: relative;
+        background: whitesmoke;
+        color:rgb(48,48,48);
+        
+    }
+      header nav ul li .children:hover{
+        background:gainsboro;}
+
+    header nav ul li .children li a{
+        margin-left: 20px;
+    }
+    header nav ul li:hover .children{
+        display: none;
+    }
+
+    header nav ul li .icon-chevron-small-down{
+        float: right;
+    }
+    header nav ul li .children{
+        margin-left: 10px;
+    }
+}
+
+
+
