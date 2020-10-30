@@ -3,7 +3,7 @@ $(document).ready(main);
 var contador = 1;
 
 function main(){
-    $('.menu_bar').click(function(){
+    $('.icon-list').click(function(){
         if(contador ==1){
             $('nav').animate({
                 left: '0'
