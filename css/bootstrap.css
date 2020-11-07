@@ -1,0 +1,25 @@
+body{
+    margin: 1em;
+}
+.alin-derecha{
+   float:right;
+}
+div.insignias{
+    float: left;
+    width: 25%;
+    clear: right;
+    padding: 2em;
+}
+
+p{
+    clear: both;
+    margin-top: 2em;
+    padding: 2em;
+    
+}
+.espaciado{
+    margin-bottom: 1em;
+}
+.alin-derecha{
+    float: right;
+}
