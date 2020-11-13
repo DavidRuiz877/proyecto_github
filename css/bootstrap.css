@@ -23,3 +23,13 @@ p{
 .alin-derecha{
     float: right;
 }
+table{
+    width: 100%;
+}
+td{
+    margin: 20px;
+    padding: 20px;
+}
+.orienta-boton{
+    float: right;
+}
