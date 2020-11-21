@@ -33,3 +33,6 @@ td{
 .orienta-boton{
     float: right;
 }
+a.title{
+    font-size: 1.5em;
+}
