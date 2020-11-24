@@ -9,6 +9,32 @@
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
 </head>
 <body>
+    <h2>carrusel</h2>
+    <div id="demo" class="carousel slide" data-ride="carousel">
+        <ul class="carousel-indicators">
+            <li data-target="#demo" data-slide-to="0" class="active"></li>
+            <li data-target="#demo" data-slide-to="1"></li>
+            <li data-target="#demo" data-slide-to="2"></li>
+        </ul>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="img/perro-1.jpg" alt="pitbull">
+            </div>
+            <div class="carousel-item">
+                <img src="img/perro-2.jpg" alt="pitbull">
+            </div>
+            <div class="carousel-item">
+                <img src="img/perro-3.jpg" alt="pitbull">
+            </div>
+        </div>
+        <a href="#demo" class="carousel-control-prev" data-slide="prev">
+            <span class="carousel-control-prev-icon"></span>
+        </a>
+        <a href="#demo" class="carousel-control-next" data-slide="next">
+            <span class="carousel-control-next-icon"></span>
+        </a>
+    </div>
+
 <h2>popover</h2>
 
  <a tabindex="0" class="btn btn-lg btn-danger" role="button" data-toggle="popover" data-trigger="hover" title="Este es el titulo del popover" data-content="Este es el cuerpo de un popover con bootstrap usando la libreria tether" data-placement="bottom">Yo soy un popover</a><br><br>
